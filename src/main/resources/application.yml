@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url : jdbc:mysql://localhost:3306/department_db?createDatabaseIfNotExist=true  # URL to connect to MySQL database
+    username : root  # Database username
+    password : 61574210 # Password for the MySQL user (empty in your case)
+
+  jpa:
+    hibernate:
+      ddl-auto : update  # Hibernate will update the database schema based on the entity classes
+
+server:
+  port: 9090  # Sets the port for the Spring Boot application
